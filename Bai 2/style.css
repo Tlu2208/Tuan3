@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#main{
+    width: 100%;
+    height: 700px;
+    
+}
+
+#header{
+    position: relative;
+    height: 150px;
+    background-color: #294e79;
+    color: #fff;
+}
+.title-left{
+    position: absolute ;
+    width: 40%;
+    height: 150px;
+}
+h1{
+        font-size: 55px;
+        position: absolute;
+        left: 23%;
+        top: 20%;
+
+}
+
+.img-left{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 4%;
+    top: 10%;
+}
+
+.content-head{
+    
+    position: absolute;
+    font-size: 20px;
+    left: 22%;
+    top: 70%;
+    word-spacing: 5px;
+}
+
+.title-right{
+    position: absolute;
+    width: 60%;
+    height: 150px;
+    left: 40%;
+}
+
+.list-option{
+    height: 50px;
+    margin: 10.5% 0 0 18%;
+}
+
+.option{
+    /* position: absolute; */
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px 0 15px;
+    padding: 2% 3% 2% 3%;
+    border:1px solid hidden;
+    background-color: #3d73b1;
+    font-size: 20px;
+    
+}
+
+#body{
+    margin: 10px;
+    position: relative;
+    height: 500px;
+}
+
+h2{
+    margin: 40px 0 30px 0;
+}
+
+.body-left{
+    position: absolute;
+    width: 70%;
+    height:450px;
+}
+.body-right{
+    position: absolute;
+    left: 70%;
+    width: 40%;
+    height:450px;
+}
+
+.body-left .content-left{
+    position: absolute;
+    width: 50%;
+    height: 350px;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.body-left .content-right{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: 350px;
+
+    color: #aa9074;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+
+.body-right .container{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color:  #f9f9f9;
+    margin-left: 50px;
+    top: 10%;
+    padding: 0 30px 0 30px;
+}
+
+#footer{
+    position: relative;
+    line-height: 50px;
+    color: #3d73b1;
+    background-color: #294e79;
+    height: 50px;
+}
+
+.content-footer{
+    margin-left: 50px;
+}
+
+.form-header{
+
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+#header input{
+    background-color: #1c3451;
+    border: 1px solid #294e79;
+    box-shadow: 1px 1px #3d73b1;
+    padding: 5px;
+}

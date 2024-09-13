@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(0,#5da3ef, #6dcaec);
+}
+#header{
+    height: 100px;
+}
+
+#header .list-option{
+    padding: 20px 0 20px 0;
+}
+
+#header .option{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+#header .option-item{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.body-left{
+    padding: 35px 20px 0 5px;
+    position: absolute;
+    width: 50%;
+    height: 500px;
+
+}
+
+.body-right{
+
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    left: 50%;
+
+}
+
+.body-left .title-left{
+    font-size: 40px;
+    color: #fff;
+}
+
+.body-left .content-left{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.form-input{
+    position: relative;
+    padding: 10px 0 5px 0;
+    height: 370px;
+}
+
+label{
+    position: absolute;
+    margin: 5px 0 5px 10%;
+    color: #fff;
+}
+
+input{
+    position: absolute;
+    left: 56%;
+    width: 40%;
+    height: 25px;
+    color: #b8b8b4;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.submit-left{
+    position: absolute;
+    top: 70%;
+    width: 70px;
+}
+
+
+
+img{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 6%;
+    right: 20%;
+}
+
+.content-right{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    color: blue;
+}
+
+#footer{
+    height: 100px;
+    color: #fff;
+    text-align: center;
+}
+.content-footer{
+    margin-top: 50px;
+    font-size: 20px;
+}
